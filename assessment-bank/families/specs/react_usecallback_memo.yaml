@@ -1,0 +1,9 @@
+code: REACT_USECALLBACK_MEMO
+specialization: FRONTEND
+target_grade: MIDDLE
+topic: React
+item_format: MCQ
+discrimination_a: 1.45
+difficulty_b: 0.25
+description: 'Оптимизация производительности React: стабильность ссылок с useCallback
+  и React.memo'

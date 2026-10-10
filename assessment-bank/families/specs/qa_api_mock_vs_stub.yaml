@@ -1,0 +1,8 @@
+code: QA_API_MOCK_VS_STUB
+specialization: QA
+target_grade: MIDDLE
+topic: Automation
+item_format: MCQ
+discrimination_a: 1.5
+difficulty_b: 0.7
+description: Различия между тестовыми дублерами Mock, Stub, Fake, Dummy в API тестировании

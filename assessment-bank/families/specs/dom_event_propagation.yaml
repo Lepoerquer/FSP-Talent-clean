@@ -1,0 +1,8 @@
+code: DOM_EVENT_PROPAGATION
+specialization: FRONTEND
+target_grade: JUNIOR
+topic: DOM
+item_format: CODE_OUTPUT
+discrimination_a: 1.3
+difficulty_b: -0.3
+description: Фазы распространения событий DOM (capturing, target, bubbling, stopPropagation)

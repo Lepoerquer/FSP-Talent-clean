@@ -1,0 +1,8 @@
+code: ML_CROSS_VALIDATION_TIME
+specialization: DATA_ML
+target_grade: MIDDLE
+topic: Feature_Engineering
+item_format: MCQ
+discrimination_a: 1.0
+difficulty_b: 0.8
+description: Размер обучающего окна в TimeSeriesSplit с учётом остатка

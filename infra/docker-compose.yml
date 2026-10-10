@@ -1,0 +1,94 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: fsp-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-fsp_talent}
+      POSTGRES_USER: ${POSTGRES_USER:-fsp_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-fsp_password}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-fsp_user} -d ${POSTGRES_DB:-fsp_talent}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  valkey:
+    image: valkey/valkey:7.2-alpine
+    container_name: fsp-valkey
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: fsp-mailpit
+    restart: unless-stopped
+    ports:
+      - "1025:1025" # SMTP
+      - "8025:8025" # Web UI
+
+  fsp-mock-registry:
+    build:
+      context: ../services/fsp-mock
+      dockerfile: Dockerfile
+    container_name: fsp-mock-registry
+    restart: unless-stopped
+    ports:
+      - "8001:8001"
+    environment:
+      - PORT=8001
+
+  backend:
+    build:
+      context: ../
+      dockerfile: backend/Dockerfile
+    container_name: fsp-backend
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      valkey:
+        condition: service_started
+      fsp-mock-registry:
+        condition: service_started
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-fsp_user}:${POSTGRES_PASSWORD:-fsp_password}@postgres:5432/${POSTGRES_DB:-fsp_talent}
+      - VALKEY_URL=redis://valkey:6379/0
+      - FSP_REGISTRY_URL=http://fsp-mock-registry:8001
+      - AUTH_PROVIDER=internal
+      - SECRET_KEY=${SECRET_KEY:-fsp-talent-super-secret-key-change-in-production-2026}
+      - LLM_PROVIDER=${LLM_PROVIDER:-gigachat}
+      - GIGACHAT_CREDENTIALS=${GIGACHAT_CREDENTIALS:-MDFhMTIwOTItY2IwMC03MGM4LWIwODQtYTA3YzZkYTIzNWVkOjhkMGE5NzMyLTM1MDYtNGU1NC1hZDgxLTgyZTJlMzU1YWQ2Yg==}
+      - GIGACHAT_SCOPE=${GIGACHAT_SCOPE:-GIGACHAT_API_PERS}
+      - GIGACHAT_MODEL=${GIGACHAT_MODEL:-GigaChat}
+      - GIGACHAT_VERIFY_SSL=${GIGACHAT_VERIFY_SSL:-False}
+      - PUBLIC_BASE_URL=${PUBLIC_BASE_URL:-http://193.32.188.135}
+    volumes:
+      - ../backend:/app/backend
+      - ../assessment-bank:/app/assessment-bank
+      - ../services:/app/services
+      - ../ml:/app/ml
+
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+    container_name: fsp-frontend
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:

@@ -1,0 +1,9 @@
+code: SQL_WINDOW_RANK
+specialization: BACKEND
+target_grade: MIDDLE
+topic: SQL
+item_format: SQL
+discrimination_a: 1.55
+difficulty_b: 0.5
+description: Различия оконных функций ранжирования ROW_NUMBER, RANK, DENSE_RANK при
+  дубликатах

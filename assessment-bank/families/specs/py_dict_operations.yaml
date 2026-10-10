@@ -1,0 +1,9 @@
+code: PY_DICT_OPERATIONS
+specialization: BACKEND
+target_grade: INTERN
+topic: Python
+item_format: CODE_OUTPUT
+discrimination_a: 1.35
+difficulty_b: -1.3
+description: 'Базовые операции со словарями: dict.get(key, default), добавление и
+  проверка ключей'

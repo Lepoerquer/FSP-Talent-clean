@@ -1,0 +1,8 @@
+code: PY_DECORATOR_EXECUTION
+specialization: BACKEND
+target_grade: MIDDLE
+topic: Python
+item_format: CODE_OUTPUT
+discrimination_a: 1.45
+difficulty_b: 0.2
+description: Порядок оборачивания и выполнения нескольких декораторов в Python

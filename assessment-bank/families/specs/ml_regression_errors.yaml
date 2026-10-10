@@ -1,0 +1,8 @@
+code: ML_REGRESSION_ERRORS
+specialization: DATA_ML
+target_grade: INTERN
+topic: Metrics
+item_format: MCQ
+discrimination_a: 1.0
+difficulty_b: -1.4
+description: Расчёт MAE, MSE и RMSE по прогнозам регрессии

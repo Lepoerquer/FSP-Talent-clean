@@ -1,0 +1,8 @@
+code: ML_ONE_HOT_WIDTH
+specialization: DATA_ML
+target_grade: INTERN
+topic: Feature_Engineering
+item_format: CODE_OUTPUT
+discrimination_a: 1.0
+difficulty_b: -1.5
+description: Число столбцов после pd.get_dummies с drop_first и без

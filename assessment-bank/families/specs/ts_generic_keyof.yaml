@@ -1,0 +1,9 @@
+code: TS_GENERIC_KEYOF
+specialization: FRONTEND
+target_grade: MIDDLE
+topic: JS_TS
+item_format: MCQ
+discrimination_a: 1.55
+difficulty_b: 0.45
+description: 'Строгая типизация в TypeScript: обобщения (generics), keyof и indexed
+  access types'

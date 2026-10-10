@@ -1,0 +1,8 @@
+code: ML_NUMPY_BROADCAST
+specialization: DATA_ML
+target_grade: MIDDLE
+topic: Data_Processing
+item_format: CODE_OUTPUT
+discrimination_a: 1.0
+difficulty_b: 0.6
+description: Форма результата при broadcasting в NumPy или ошибка

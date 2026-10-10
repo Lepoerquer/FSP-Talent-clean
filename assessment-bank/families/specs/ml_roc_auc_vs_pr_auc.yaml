@@ -1,0 +1,9 @@
+code: ML_ROC_AUC_VS_PR_AUC
+specialization: DATA_ML
+target_grade: MIDDLE
+topic: Metrics
+item_format: MCQ
+discrimination_a: 1.0
+difficulty_b: 0.7
+description: Precision в рабочей точке ROC при сильном дисбалансе классов (почему
+  нужна PR-кривая)

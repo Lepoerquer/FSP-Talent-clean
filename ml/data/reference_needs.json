@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Middle Python-разработчик (платёжный шлюз)",
+    "raw_description": "Развиваем платёжный шлюз для интернет-магазинов: приём платежей, возвраты, сверки с банками. Ищем Middle Python-разработчика, который возьмёт на себя сервисы расчётов. Пишем на Python и FastAPI, данные храним в PostgreSQL, очереди и кэш на Redis, всё упаковано в Docker. Важно умение проектировать схемы БД и писать понятные миграции. Опыт от 3 лет. Офис в Москве, два дня в неделю можно работать из дома.",
+    "target_specialization": "BACKEND",
+    "target_grade": "MIDDLE",
+    "track": "python",
+    "required_skills": ["Python", "FastAPI", "PostgreSQL", "Redis"],
+    "work_format": "HYBRID",
+    "city": "Москва",
+    "salary_budget_max": 290000
+  },
+  {
+    "title": "Senior Java-разработчик в команду биллинга",
+    "raw_description": "Команда биллинга телеком-оператора переписывает монолит на микросервисы. Нужен Senior Java-разработчик: проектирование сервисов на Spring Boot, обмен событиями через Apache Kafka, хранение в PostgreSQL. Ждём опыт высоконагруженных систем, умение разбирать инциденты и менторить джунов. Полностью удалённая работа, часовой пояс Москвы.",
+    "target_specialization": "BACKEND",
+    "target_grade": "SENIOR",
+    "track": "java",
+    "required_skills": ["Java", "Spring Boot", "Apache Kafka", "PostgreSQL"],
+    "work_format": "REMOTE",
+    "city": null,
+    "salary_budget_max": 470000
+  },
+  {
+    "title": "Junior Go-разработчик",
+    "raw_description": "Логистическая платформа ищет Junior Go-разработчика в команду маршрутизации. Задачи: сервисы расчёта маршрутов и API для курьерских приложений. Стек: Go, PostgreSQL, Docker. Подойдёт выпускник с пет-проектами на Go и пониманием SQL. Работа в офисе в Санкт-Петербурге, наставник на первые полгода.",
+    "target_specialization": "BACKEND",
+    "target_grade": "JUNIOR",
+    "track": "go",
+    "required_skills": ["Go (Golang)", "PostgreSQL", "Docker"],
+    "work_format": "OFFICE",
+    "city": "Санкт-Петербург",
+    "salary_budget_max": 160000
+  },
+  {
+    "title": "Middle Frontend-разработчик (React)",
+    "raw_description": "Делаем личный кабинет для малого бизнеса: счета, отчёты, интеграции с банками. Нужен Middle frontend-разработчик на React и TypeScript. Состояние храним в Redux, компоненты покрываем тестами на Jest. Будет плюсом опыт с дизайн-системами и Storybook. Удалённо из любого города России.",
+    "target_specialization": "FRONTEND",
+    "target_grade": "MIDDLE",
+    "track": "react",
+    "required_skills": ["TypeScript", "React", "Redux", "Jest"],
+    "work_format": "REMOTE",
+    "city": null,
+    "salary_budget_max": 270000
+  },
+  {
+    "title": "Senior Vue-разработчик (маркетплейс)",
+    "raw_description": "Маркетплейс товаров для дома ищет Senior frontend-разработчика. Витрина написана на Vue.js и Nuxt.js с серверным рендерингом, состояние в Pinia, весь код на TypeScript. Ожидаем, что вы будете отвечать за производительность и архитектуру фронтенда, ревьюить код команды из пяти человек. Гибрид, офис в Казани.",
+    "target_specialization": "FRONTEND",
+    "target_grade": "SENIOR",
+    "track": "vue",
+    "required_skills": ["Vue.js", "TypeScript", "Nuxt.js", "Pinia"],
+    "work_format": "HYBRID",
+    "city": "Казань",
+    "salary_budget_max": 420000
+  },
+  {
+    "title": "Junior Angular-разработчик",
+    "raw_description": "Разрабатываем систему документооборота для госзаказчиков. Ищем Junior frontend-разработчика: формы, таблицы, интеграция с REST API. Стек: Angular, TypeScript, RxJS. Важно желание разобраться в реактивном программировании. Удалённая работа, есть программа обучения.",
+    "target_specialization": "FRONTEND",
+    "target_grade": "JUNIOR",
+    "track": "angular",
+    "required_skills": ["TypeScript", "Angular", "RxJS"],
+    "work_format": "REMOTE",
+    "city": null,
+    "salary_budget_max": 150000
+  },
+  {
+    "title": "Middle QA Automation (Python)",
+    "raw_description": "В команду мобильного банка нужен инженер по автоматизации тестирования. Пишем автотесты на Python и Pytest: API-тесты для REST API и UI-тесты на Selenium WebDriver, отчёты в Allure. Нужно уметь проектировать тестовое покрытие и поддерживать тесты в CI. Удалённо.",
+    "target_specialization": "QA",
+    "target_grade": "MIDDLE",
+    "track": "python_auto",
+    "required_skills": ["Python", "Pytest", "Selenium WebDriver", "REST API"],
+    "work_format": "REMOTE",
+    "city": null,
+    "salary_budget_max": 250000
+  },
+  {
+    "title": "Junior QA-инженер (ручное тестирование)",
+    "raw_description": "Ищем начинающего тестировщика в команду CRM-системы. Задачи: тестирование новых функций по требованиям, составление чек-листов и тест-кейсов, проверка API через Postman, заведение багов. Нужно знать техники тест-дизайна. Офис в Новосибирске.",
+    "target_specialization": "QA",
+    "target_grade": "JUNIOR",
+    "track": "manual",
+    "required_skills": ["Manual Testing", "Test Design Techniques", "Postman / Newman"],
+    "work_format": "OFFICE",
+    "city": "Новосибирск",
+    "salary_budget_max": 120000
+  },
+  {
+    "title": "Middle Data Scientist (кредитный скоринг)",
+    "raw_description": "Строим модели кредитного скоринга и оттока клиентов. Нужен Middle Data Scientist: подготовка признаков в Pandas, модели градиентного бустинга на CatBoost, классические модели на Scikit-Learn, валидация и мониторинг качества. Будет плюсом опыт с ClickHouse и Airflow. Гибридный формат, офис в Москве.",
+    "target_specialization": "DATA_ML",
+    "target_grade": "MIDDLE",
+    "track": "classic_ml",
+    "required_skills": ["Python", "Pandas", "Scikit-Learn", "CatBoost"],
+    "work_format": "HYBRID",
+    "city": "Москва",
+    "salary_budget_max": 300000
+  },
+  {
+    "title": "Senior ML-инженер (NLP)",
+    "raw_description": "Разрабатываем ассистента для службы поддержки: классификация обращений, поиск ответов, суммаризация диалогов. Ищем Senior ML-инженера с опытом в NLP: обучение и дообучение моделей на PyTorch, работа с Hugging Face Transformers, вывод моделей в прод. Полностью удалённо.",
+    "target_specialization": "DATA_ML",
+    "target_grade": "SENIOR",
+    "track": "deep_learning",
+    "required_skills": ["Python", "PyTorch", "Hugging Face Transformers"],
+    "work_format": "REMOTE",
+    "city": null,
+    "salary_budget_max": 500000
+  }
+]

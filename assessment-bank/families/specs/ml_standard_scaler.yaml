@@ -1,0 +1,8 @@
+code: ML_STANDARD_SCALER
+specialization: DATA_ML
+target_grade: JUNIOR
+topic: Feature_Engineering
+item_format: MCQ
+discrimination_a: 1.0
+difficulty_b: -0.4
+description: Преобразование StandardScaler по статистикам train (ddof=0)

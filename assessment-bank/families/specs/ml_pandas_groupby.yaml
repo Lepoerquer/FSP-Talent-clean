@@ -1,0 +1,8 @@
+code: ML_PANDAS_GROUPBY
+specialization: DATA_ML
+target_grade: JUNIOR
+topic: Data_Processing
+item_format: CODE_OUTPUT
+discrimination_a: 1.0
+difficulty_b: -0.6
+description: Агрегации groupby в pandas и обработка NaN

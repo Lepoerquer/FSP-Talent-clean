@@ -1,0 +1,9 @@
+code: HTTP_ASYNC_COROUTINE
+specialization: BACKEND
+target_grade: SENIOR
+topic: HTTP_Async
+item_format: CODE_OUTPUT
+discrimination_a: 1.7
+difficulty_b: 1.4
+description: Асинхронное выполнение корутин в Event Loop (asyncio.gather vs sequential
+  await)

@@ -1,0 +1,8 @@
+code: CSS_SPECIFICITY_CALC
+specialization: FRONTEND
+target_grade: JUNIOR
+topic: CSS
+item_format: MCQ
+discrimination_a: 1.3
+difficulty_b: -0.6
+description: Расчет специфичности CSS-селекторов и влияние директивы !important

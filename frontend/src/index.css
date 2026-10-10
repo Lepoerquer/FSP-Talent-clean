@@ -1,0 +1,563 @@
+/* Фирменные шрифты ФСП: Inter (основной интерфейс) и JetBrains Mono (заголовки, код, акценты) */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Inter-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/Inter-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/Inter-SemiBold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Inter-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/JetBrainsMono-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/JetBrainsMono-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/JetBrainsMono-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/JetBrainsMono-Bold.ttf') format('truetype');
+}
+
+/* Акцентный пиксельный шрифт ФСП (стр. 22 брендбука) */
+@font-face {
+  font-family: 'TDAText';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/TDAText.ttf') format('truetype');
+}
+
+/* Дизайн-токены платформы по официальному брендбуку ФСП: #402FFF, #EC1D35, #0A006B, #1B1C21 */
+:root {
+  --fsp-primary: #402fff;
+  --fsp-primary-hover: #3020db;
+  --fsp-accent-red: #ec1d35;
+  --fsp-digital-navy: #0a006b;
+  --fsp-ink: #1b1c21;
+  --fsp-header-bg: #1b1c21;
+  --fsp-text-muted: #5f6677;
+  --fsp-bg: #f4f6fb;
+  --fsp-surface: #ffffff;
+  --fsp-card: #ffffff;
+  --fsp-card-bg: #ffffff;
+  --fsp-radar-text: #1b1c21;
+  --fsp-border: #dde0e7;
+  --fsp-border-strong: #c5cad5;
+  --fsp-card-gray: #2d2e37;
+  --fsp-border-brand: #3a3c46;
+
+  /* Совместимость с компонентами */
+  --fsp-brand-pink: #402fff;
+  --fsp-purple: #0a006b;
+  --fsp-purple-dark: #0a006b;
+
+  /* Приглушённые заливки для информационных блоков */
+  --fsp-tint-accent: #eef0ff;
+  --fsp-tint-violet: #ebedfa;
+  --fsp-tint-red: #ffe8ea;
+  --fsp-tint-success: #f0f8f4;
+  --fsp-tint-warn: #fff8ea;
+  --fsp-tint-neutral: #f6f7f9;
+}
+
+/* Официальная тёмная тема ФСП по брендбуку (стр. 20):
+ * #1B1C21 Dark Black (поверхность/текст шапки)
+ * #2D2E37 Card Gray (подложки карточек)
+ * #3A3C46 Border Gray (обводка и разделители)
+ * #EDEDED White Logo (основной цвет текста и логотипа)
+ * #402FFF / #5363FF Electric Blue (акцент)
+ * #EC1D35 Sport Red (дополнительный акцент)
+ */
+[data-mantine-color-scheme='dark'] {
+  --fsp-primary: #5363ff;
+  --fsp-primary-hover: #402fff;
+  --fsp-accent-red: #ec1d35;
+  --fsp-digital-navy: #9fa7d6;
+  --fsp-ink: #ededed;
+  --fsp-header-bg: #15161a;
+  --fsp-text-muted: #9698a3;
+  --fsp-bg: #16171b;
+  --fsp-surface: #1b1c21;
+  --fsp-card: #1f2026;
+  --fsp-card-bg: #25262e;
+  --fsp-radar-text: #ededed;
+  --fsp-border: #3a3c46;
+  --fsp-border-strong: #575865;
+  --fsp-card-gray: #2d2e37;
+  --fsp-border-brand: #3a3c46;
+
+  /* Совместимость с компонентами */
+  --fsp-brand-pink: #5363ff;
+  --fsp-purple: #9fa7d6;
+  --fsp-purple-dark: #b8c2ff;
+
+  /* Приглушённые заливки для информационных блоков в тёмной теме */
+  --fsp-tint-accent: rgba(64, 47, 255, 0.18);
+  --fsp-tint-violet: rgba(15, 26, 124, 0.35);
+  --fsp-tint-red: rgba(236, 29, 53, 0.2);
+  --fsp-tint-success: rgba(30, 122, 79, 0.22);
+  --fsp-tint-warn: rgba(224, 132, 20, 0.2);
+  --fsp-tint-neutral: #22232a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--fsp-ink);
+  background-color: var(--fsp-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'tnum' 1;
+}
+
+code,
+pre {
+  font-family: 'JetBrains Mono', Consolas, 'SFMono-Regular', Menlo, monospace;
+}
+
+/* Акцентный пиксельный шрифт ФСП (стр. 22 брендбука) для технологических метрик */
+.font-accent-fsp {
+  font-family: 'TDAText', 'JetBrains Mono', monospace;
+  letter-spacing: 0.04em;
+}
+
+/* Карточки и панели: тонкая рамка вместо теней */
+.mantine-Paper-root,
+.mantine-Card-root {
+  border-color: var(--fsp-border);
+}
+
+/* Видимый фокус с клавиатуры */
+:focus-visible {
+  outline: 2px solid var(--fsp-primary);
+  outline-offset: 2px;
+}
+
+/* Заголовок раздела: тонкая линия-акцент слева */
+.section-eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fsp-purple);
+}
+
+/* Выбираемые карточки (грейды, направления, ответы) */
+.choice-card {
+  cursor: pointer;
+  background: var(--fsp-surface);
+  border: 1px solid var(--fsp-border);
+  transition: border-color 0.12s ease, background-color 0.12s ease;
+}
+.choice-card:hover {
+  border-color: var(--fsp-border-strong);
+}
+.choice-card[data-selected='true'] {
+  border-color: var(--fsp-primary);
+  background: var(--fsp-tint-accent);
+  box-shadow: inset 3px 0 0 var(--fsp-primary);
+}
+
+/* Мелкие бейджи: читаемый размер шрифта (не меньше 11 px) */
+.mantine-Badge-root[data-size='xs'] {
+  --badge-fz: 0.6875rem;
+  --badge-height: 20px;
+}
+.mantine-Badge-root[data-size='sm'] {
+  --badge-fz: 0.75rem;
+}
+
+/* Адаптивные сетки 12 колонок: на узких экранах блоки идут друг под другом */
+.split-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--mantine-spacing-md);
+}
+@media (min-width: 62em) {
+  .split-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+  .split-grid > .span-7 { grid-column: span 7; }
+  .split-grid > .span-5 { grid-column: span 5; }
+  .split-grid > .span-8 { grid-column: span 8; }
+  .split-grid > .span-4 { grid-column: span 4; }
+}
+
+/* Кастомные полосы прокрутки */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #eceef2;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5cad5;
+  border-radius: 5px;
+  border: 2px solid #eceef2;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a7aebb;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* ---------- Шапка ---------- */
+.shell-header {
+  background: var(--fsp-header-bg, #1b1c21);
+  border-bottom: 2px solid var(--fsp-primary);
+}
+.app-header {
+  height: 100%;
+  background: var(--fsp-header-bg, #1b1c21);
+  color: #fff;
+}
+.brand {
+  color: #fff;
+}
+.brand-title {
+  white-space: nowrap;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  color: #fff;
+}
+.brand-subtitle {
+  font-size: 0.6875rem;
+  color: #a3a8b3;
+  line-height: 1.2;
+}
+.user-trigger {
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.user-trigger:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+.header-ghost {
+  color: #e6e8ec;
+  border-color: rgba(255, 255, 255, 0.35);
+  background: transparent;
+}
+.header-ghost:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Переключатель кабинетов: на тёмной шапке и в боковом меню */
+.role-switch {
+  background: rgba(255, 255, 255, 0.1);
+}
+.role-switch .mantine-SegmentedControl-label {
+  color: #d7dae1;
+  font-weight: 500;
+}
+.role-switch .mantine-SegmentedControl-label[data-active] {
+  color: var(--fsp-ink);
+  font-weight: 600;
+}
+.role-switch .mantine-SegmentedControl-indicator {
+  background: #fff;
+  box-shadow: none;
+}
+.shell-navbar .role-switch {
+  background: var(--fsp-bg);
+}
+.shell-navbar .role-switch .mantine-SegmentedControl-label {
+  color: var(--fsp-text-muted);
+}
+.shell-navbar .role-switch .mantine-SegmentedControl-label[data-active] {
+  color: var(--fsp-ink);
+}
+.shell-navbar .role-switch .mantine-SegmentedControl-indicator {
+  background: #fff;
+  border: 1px solid var(--fsp-border);
+}
+
+/* ---------- Боковое меню ---------- */
+.shell-navbar {
+  background: var(--fsp-surface);
+  border-right: 1px solid var(--fsp-border);
+}
+.nav-section-label {
+  padding: 0 12px;
+  margin-bottom: 8px;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fsp-text-muted);
+}
+.nav-link {
+  border-radius: 4px;
+  color: var(--fsp-ink);
+  padding: 9px 12px;
+}
+.nav-link:hover {
+  background: var(--fsp-tint-neutral);
+}
+.nav-link[data-active] {
+  background: var(--fsp-tint-accent);
+  color: var(--fsp-primary);
+  box-shadow: inset 3px 0 0 var(--fsp-primary);
+}
+.nav-link[data-active] .mantine-NavLink-label {
+  font-weight: 600;
+}
+.nav-link .mantine-NavLink-label {
+  font-size: 0.875rem;
+}
+.side-widget {
+  border: 1px solid var(--fsp-border);
+  border-radius: 6px;
+  background: var(--fsp-tint-neutral);
+  padding: 12px 14px;
+}
+.side-widget-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--fsp-ink);
+}
+
+/* ---------- Типовые блоки страниц ---------- */
+.page-head {
+  border-left: 3px solid var(--fsp-primary);
+  padding-left: 16px;
+}
+.kv-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--fsp-border);
+  font-size: 0.8125rem;
+}
+.kv-row:last-child {
+  border-bottom: none;
+}
+.kv-row dt {
+  color: var(--fsp-text-muted);
+  margin: 0;
+}
+.kv-row dd {
+  margin: 0;
+  font-weight: 600;
+  text-align: right;
+}
+
+/* ---------- Адаптивность ---------- */
+/* Заголовки страниц плавно уменьшаются на узких экранах */
+.page-head .mantine-Title-root {
+  font-size: clamp(1.3rem, 4.6vw, 1.625rem);
+  overflow-wrap: break-word;
+}
+
+/* Сенсорные устройства: минимальная область нажатия 44 px (WCAG 2.5.5) */
+@media (pointer: coarse) {
+  .mantine-Button-root:not([data-size='compact-xs']):not([data-size='compact-sm']) {
+    --button-height: 44px;
+  }
+  .mantine-Button-root[data-size='compact-xs'] {
+    --button-height: 34px;
+  }
+  .mantine-Input-input {
+    --input-height: 44px;
+  }
+  .nav-link {
+    min-height: 48px;
+  }
+  .choice-card {
+    min-height: 48px;
+  }
+}
+
+/* Узкие экраны: модальные окна занимают всю ширину и прокручиваются внутри */
+@media (max-width: 36em) {
+  .mantine-Modal-content {
+    --modal-size: 100% !important;
+    max-height: 100dvh;
+    border-radius: 0;
+  }
+  .mantine-Modal-inner {
+    padding: 0 !important;
+    align-items: flex-end;
+  }
+  .side-widget {
+    padding: 10px 12px;
+  }
+}
+
+/* Горизонтальная ориентация телефона: шапка компактнее */
+@media (max-height: 480px) and (orientation: landscape) {
+  .page-head .mantine-Title-root {
+    font-size: 1.25rem;
+  }
+}
+
+/* Печать: только содержимое страницы */
+@media print {
+  .shell-header,
+  .shell-navbar {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+  }
+}
+
+@media (max-width: 26em) {
+  .brand-title {
+    font-size: 0.9375rem;
+  }
+  .app-header img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* Правильный перенос текста: слова не разрываются посередине (overflow-wrap: break-word вместо anywhere,
+чтобы flexbox не сжимал текст в однобуквенные колонки и текст не искривлялся) */
+.mantine-Title-root,
+.mantine-Text-root,
+.mantine-List-item,
+.mantine-Alert-message,
+.mantine-Card-root,
+.mantine-Paper-root {
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+.mantine-Badge-label {
+  overflow-wrap: normal;
+  white-space: nowrap;
+}
+
+/* Специальный класс для длинных криптографических хэшей, токенов и ID */
+.text-break-hash {
+  word-break: break-all !important;
+  overflow-wrap: anywhere !important;
+}
+
+/* Безопасность мобильной верстки: предотвращение горизонтального раскачивания и вылетов */
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+/* =========================================================
+ * Дополнительные стили тёмной темы по брендбуку ФСП
+ * ========================================================= */
+
+[data-mantine-color-scheme='dark'] ::-webkit-scrollbar-track {
+  background: #16171b;
+}
+
+[data-mantine-color-scheme='dark'] ::-webkit-scrollbar-thumb {
+  background: #3a3c46;
+  border: 2px solid #16171b;
+}
+
+[data-mantine-color-scheme='dark'] ::-webkit-scrollbar-thumb:hover {
+  background: #575865;
+}
+
+[data-mantine-color-scheme='dark'] .mantine-Paper-root,
+[data-mantine-color-scheme='dark'] .mantine-Card-root {
+  border-color: var(--fsp-border);
+}
+
+[data-mantine-color-scheme='dark'] .mantine-Modal-content {
+  border: 1px solid var(--fsp-border);
+}
+
+[data-mantine-color-scheme='dark'] .mantine-Table-th {
+  color: var(--fsp-text-muted);
+  border-bottom-color: var(--fsp-border);
+}
+
+[data-mantine-color-scheme='dark'] .mantine-Table-td {
+  border-bottom-color: var(--fsp-border);
+}
+
+[data-mantine-color-scheme='dark'] .kv-row {
+  border-bottom-color: var(--fsp-border);
+}
+
+[data-mantine-color-scheme='dark'] .side-widget {
+  background: var(--fsp-tint-neutral);
+  border-color: var(--fsp-border);
+}
+
+[data-mantine-color-scheme='dark'] .choice-card {
+  background: var(--fsp-surface);
+  border-color: var(--fsp-border);
+}
+
+[data-mantine-color-scheme='dark'] .choice-card:hover {
+  border-color: var(--fsp-border-strong);
+}
+
+[data-mantine-color-scheme='dark'] .choice-card[data-selected='true'] {
+  border-color: var(--fsp-primary);
+  background: var(--fsp-tint-accent);
+}
+

@@ -1,0 +1,566 @@
+{
+  "dev": {
+    "items": 10,
+    "field_accuracy": {
+      "specialization": 1.0,
+      "grade": 1.0,
+      "work_format": 1.0,
+      "city": 1.0,
+      "salary_from": 1.0,
+      "salary_to": 1.0,
+      "experience_years": 1.0
+    },
+    "core_fields_all_correct": 1.0,
+    "skills": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 42,
+      "fp": 0,
+      "fn": 0
+    },
+    "nice_to_have": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0
+    },
+    "details": [
+      {
+        "id": "ref-01",
+        "title": "Middle Python-разработчик (платёжный шлюз)",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "Python-разработчик",
+            "Python-разработчика",
+            "Python",
+            "FastAPI"
+          ],
+          "grade": [
+            "Middle"
+          ]
+        }
+      },
+      {
+        "id": "ref-02",
+        "title": "Senior Java-разработчик в команду биллинга",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "Java-разработчик",
+            "Java-разработчик",
+            "Java",
+            "Spring Boot"
+          ],
+          "grade": [
+            "Senior"
+          ]
+        }
+      },
+      {
+        "id": "ref-03",
+        "title": "Junior Go-разработчик",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "Go-разработчик",
+            "Go-разработчика",
+            "Go (Golang)"
+          ],
+          "grade": [
+            "Junior"
+          ]
+        }
+      },
+      {
+        "id": "ref-04",
+        "title": "Middle Frontend-разработчик (React)",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "Frontend",
+            "frontend",
+            "React",
+            "TypeScript",
+            "Redux"
+          ],
+          "grade": [
+            "Middle"
+          ]
+        }
+      },
+      {
+        "id": "ref-05",
+        "title": "Senior Vue-разработчик (маркетплейс)",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "Vue-разработчик",
+            "frontend",
+            "фронтенда",
+            "фронтенда",
+            "Vue.js",
+            "Nuxt.js"
+          ],
+          "grade": [
+            "Senior"
+          ]
+        }
+      },
+      {
+        "id": "ref-06",
+        "title": "Junior Angular-разработчик",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "Angular-разработчик",
+            "frontend",
+            "Angular",
+            "TypeScript",
+            "RxJS"
+          ],
+          "grade": [
+            "Junior"
+          ]
+        }
+      },
+      {
+        "id": "ref-07",
+        "title": "Middle QA Automation (Python)",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "QA",
+            "тестирования",
+            "автотесты",
+            "Pytest",
+            "Selenium WebDriver",
+            "Allure Report"
+          ],
+          "grade": [
+            "Middle"
+          ]
+        }
+      },
+      {
+        "id": "ref-08",
+        "title": "Junior QA-инженер (ручное тестирование)",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "QA",
+            "тестирование",
+            "тестировщика",
+            "тестирование",
+            "Manual Testing",
+            "Test Cases & Checklists"
+          ],
+          "grade": [
+            "Junior"
+          ]
+        }
+      },
+      {
+        "id": "ref-09",
+        "title": "Middle Data Scientist (кредитный скоринг)",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "Data Scientist",
+            "Data Scientist",
+            "Pandas",
+            "CatBoost",
+            "Scikit-Learn"
+          ],
+          "grade": [
+            "Middle"
+          ]
+        }
+      },
+      {
+        "id": "ref-10",
+        "title": "Senior ML-инженер (NLP)",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "ML",
+            "ML-инженер",
+            "NLP",
+            "ML",
+            "NLP",
+            "ML-инженера"
+          ],
+          "grade": [
+            "Senior"
+          ]
+        }
+      }
+    ]
+  },
+  "holdout": {
+    "items": 10,
+    "field_accuracy": {
+      "specialization": 1.0,
+      "grade": 1.0,
+      "work_format": 1.0,
+      "city": 1.0,
+      "salary_from": 1.0,
+      "salary_to": 1.0,
+      "experience_years": 1.0
+    },
+    "core_fields_all_correct": 1.0,
+    "skills": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 50,
+      "fp": 0,
+      "fn": 0
+    },
+    "nice_to_have": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 6,
+      "fp": 0,
+      "fn": 0
+    },
+    "details": [
+      {
+        "id": "hold-01",
+        "title": "Senior Go-разработчик",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "Go-разработчик",
+            "Go (Golang)",
+            "gRPC"
+          ],
+          "grade": [
+            "Senior"
+          ]
+        }
+      },
+      {
+        "id": "hold-02",
+        "title": "Junior+ Frontend-разработчик (React)",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "Frontend",
+            "React",
+            "HTML5",
+            "JavaScript",
+            "TypeScript",
+            "TanStack Query (React Query)"
+          ],
+          "grade": [
+            "Junior"
+          ]
+        }
+      },
+      {
+        "id": "hold-03",
+        "title": "QA-инженер (мобильные приложения)",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "QA",
+            "Тестируем",
+            "Test Cases & Checklists",
+            "Postman / Newman",
+            "Charles Proxy / Fiddler"
+          ],
+          "grade": [
+            "Middle"
+          ]
+        }
+      },
+      {
+        "id": "hold-04",
+        "title": "Junior Data Scientist",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "Data Scientist",
+            "Data Scientist",
+            "машинного обучения",
+            "Pandas",
+            "NumPy",
+            "Scikit-Learn"
+          ],
+          "grade": [
+            "Junior"
+          ]
+        }
+      },
+      {
+        "id": "hold-05",
+        "title": "DevOps-инженер (Middle)",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "DevOps",
+            "инфраструктуру",
+            "инфраструктура",
+            "Kubernetes (K8s)",
+            "Helm",
+            "Terraform"
+          ],
+          "grade": [
+            "Middle"
+          ]
+        }
+      },
+      {
+        "id": "hold-06",
+        "title": "Senior iOS Developer",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "iOS",
+            "iOS",
+            "iOS SDK",
+            "Swift",
+            "SwiftUI",
+            "Combine"
+          ],
+          "grade": [
+            "Senior"
+          ]
+        }
+      },
+      {
+        "id": "hold-07",
+        "title": "Java-разработчик (Middle+)",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "Java-разработчик",
+            "Java",
+            "Spring Boot",
+            "Hibernate"
+          ],
+          "grade": [
+            "Middle"
+          ]
+        }
+      },
+      {
+        "id": "hold-08",
+        "title": "Python-разработчик",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "Python-разработчик",
+            "Python-разработчика",
+            "Python",
+            "Django",
+            "Celery",
+            "Pytest"
+          ],
+          "grade": [
+            "опытом от 6 лет"
+          ]
+        }
+      },
+      {
+        "id": "hold-09",
+        "title": "Vue-разработчик (Middle)",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "Vue-разработчик",
+            "Vue.js",
+            "Pinia",
+            "TypeScript",
+            "Vite"
+          ],
+          "grade": [
+            "Middle"
+          ]
+        }
+      },
+      {
+        "id": "hold-10",
+        "title": "Lead QA Automation Engineer (Java)",
+        "wrong_fields": {},
+        "skills": {
+          "extra": [],
+          "missed": []
+        },
+        "nice_to_have": {
+          "extra": [],
+          "missed": []
+        },
+        "evidence": {
+          "specialization": [
+            "QA",
+            "автоматизаторов",
+            "JUnit",
+            "REST Assured",
+            "Allure Report"
+          ],
+          "grade": [
+            "Lead"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+code: QA_TEST_PYRAMID
+specialization: QA
+target_grade: INTERN
+topic: Testing_Types
+item_format: MCQ
+discrimination_a: 1.3
+difficulty_b: -1.0
+description: Уровни классической пирамиды автоматизированного тестирования Майка Кона

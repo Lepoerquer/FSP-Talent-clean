@@ -1,0 +1,8 @@
+code: PY_GENERATOR_YIELD
+specialization: BACKEND
+target_grade: JUNIOR
+topic: Python
+item_format: CODE_OUTPUT
+discrimination_a: 1.35
+difficulty_b: -0.7
+description: Ленивые вычисления, генераторы Python и протокол итератора next()

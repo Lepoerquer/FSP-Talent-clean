@@ -1,0 +1,8 @@
+code: JS_EVENT_LOOP_MICROTASK
+specialization: FRONTEND
+target_grade: MIDDLE
+topic: JS_TS
+item_format: CODE_OUTPUT
+discrimination_a: 1.6
+difficulty_b: 0.5
+description: Очередность выполнения в Event Loop (callstack, микротаски, макротаски)

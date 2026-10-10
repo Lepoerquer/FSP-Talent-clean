@@ -1,0 +1,8 @@
+code: ML_FEATURE_DATA_LEAKAGE
+specialization: DATA_ML
+target_grade: MIDDLE
+topic: Feature_Engineering
+item_format: CODE_ERROR
+discrimination_a: 1.0
+difficulty_b: 0.5
+description: Поиск строки с утечкой данных из теста в обучение в скрипте пайплайна

@@ -1,0 +1,9 @@
+code: BACKEND_INDEX_SCAN
+specialization: BACKEND
+target_grade: SENIOR
+topic: SQL
+item_format: SQL
+discrimination_a: 1.65
+difficulty_b: 1.2
+description: 'Оптимизация запросов PostgreSQL/MySQL: влияние функций на B-Tree Index
+  Scan'

@@ -1,0 +1,8 @@
+code: QA_BUG_SEVERITY_PRIORITY
+specialization: QA
+target_grade: JUNIOR
+topic: Bug_Reports
+item_format: MCQ
+discrimination_a: 1.3
+difficulty_b: -0.5
+description: Классификация серьезности (Severity) и бизнес-приоритета (Priority) дефектов

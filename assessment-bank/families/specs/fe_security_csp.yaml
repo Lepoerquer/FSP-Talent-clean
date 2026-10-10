@@ -1,0 +1,9 @@
+code: FE_SECURITY_CSP
+specialization: FRONTEND
+target_grade: SENIOR
+topic: DOM
+item_format: MCQ
+discrimination_a: 1.6
+difficulty_b: 1.5
+description: 'Content Security Policy (CSP): директивы защиты, nonces, strict-dynamic
+  и предотвращение XSS'

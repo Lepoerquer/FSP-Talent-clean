@@ -1,0 +1,9 @@
+code: QA_LOAD_TESTING_METRICS
+specialization: QA
+target_grade: SENIOR
+topic: Testing_Types
+item_format: MCQ
+discrimination_a: 1.6
+difficulty_b: 1.4
+description: 'Глубокая интерпретация метрик нагрузочного тестирования: Tail Latency,
+  перцентили p95/p99, пулы потоков'

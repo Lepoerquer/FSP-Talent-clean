@@ -1,0 +1,9 @@
+code: QA_PERFORMANCE_TESTING
+specialization: QA
+target_grade: MIDDLE
+topic: Testing_Types
+item_format: MCQ
+discrimination_a: 1.5
+difficulty_b: 0.6
+description: 'Виды нефункционального нагрузочного тестирования: Load, Stress, Spike,
+  Soak'

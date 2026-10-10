@@ -1,0 +1,8 @@
+code: ML_LOGREG_PROBABILITY
+specialization: DATA_ML
+target_grade: MIDDLE
+topic: Models
+item_format: MCQ
+discrimination_a: 1.0
+difficulty_b: 0.4
+description: Вероятность класса в логистической регрессии по весам, смещению и признакам

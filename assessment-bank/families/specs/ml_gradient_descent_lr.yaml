@@ -1,0 +1,8 @@
+code: ML_GRADIENT_DESCENT_LR
+specialization: DATA_ML
+target_grade: SENIOR
+topic: Models
+item_format: MCQ
+discrimination_a: 1.0
+difficulty_b: 1.5
+description: Шаги градиентного спуска и предельный learning rate для сходимости

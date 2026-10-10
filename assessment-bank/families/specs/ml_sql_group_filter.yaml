@@ -1,0 +1,8 @@
+code: ML_SQL_GROUP_FILTER
+specialization: DATA_ML
+target_grade: JUNIOR
+topic: Data_Processing
+item_format: SQL
+discrimination_a: 1.0
+difficulty_b: -0.2
+description: 'WHERE до GROUP BY: результат агрегирующего запроса (ключ из SQLite)'

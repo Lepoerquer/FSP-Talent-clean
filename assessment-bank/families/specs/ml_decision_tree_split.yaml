@@ -1,0 +1,8 @@
+code: ML_DECISION_TREE_SPLIT
+specialization: DATA_ML
+target_grade: JUNIOR
+topic: Models
+item_format: MCQ
+discrimination_a: 1.0
+difficulty_b: -0.3
+description: Взвешенная Gini impurity и её уменьшение при разбиении узла

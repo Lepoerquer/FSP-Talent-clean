@@ -1,0 +1,9 @@
+code: QA_EQUIVALENCE_PARTITIONING
+specialization: QA
+target_grade: INTERN
+topic: Test_Cases
+item_format: MCQ
+discrimination_a: 1.2
+difficulty_b: -1.4
+description: Разбиение на классы эквивалентности (Equivalence Partitioning) для валидации
+  форм

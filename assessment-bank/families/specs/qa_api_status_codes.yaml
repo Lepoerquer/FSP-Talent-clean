@@ -1,0 +1,8 @@
+code: QA_API_STATUS_CODES
+specialization: QA
+target_grade: JUNIOR
+topic: Automation
+item_format: MCQ
+discrimination_a: 1.4
+difficulty_b: -0.4
+description: Разграничение кодов состояния REST API HTTP 401, 403, 422 в автотестах

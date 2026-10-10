@@ -1,0 +1,21 @@
+target-version = "py312"
+line-length = 120
+
+[lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "W",   # pycodestyle warnings
+]
+ignore = [
+    "E501",  # line too long
+    "E402",  # module level import not at top of file (sys.path manipulation)
+    "B008",  # FastAPI Depends in function arguments
+    "W291",  # trailing whitespace
+    "W293",  # blank line contains whitespace
+]
+
+[lint.per-file-ignores]
+"__init__.py" = ["F401", "F403"]
+"backend/alembic/*" = ["F401"]
+"backend/tests/*" = ["F401", "F841"]

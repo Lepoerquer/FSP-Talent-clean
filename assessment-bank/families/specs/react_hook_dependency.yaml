@@ -1,0 +1,9 @@
+code: REACT_HOOK_DEPENDENCY
+specialization: FRONTEND
+target_grade: MIDDLE
+topic: React
+item_format: CODE_ERROR
+discrimination_a: 1.5
+difficulty_b: 0.3
+description: Stale closures в React useEffect, батчинг и функциональные обновления
+  состояния

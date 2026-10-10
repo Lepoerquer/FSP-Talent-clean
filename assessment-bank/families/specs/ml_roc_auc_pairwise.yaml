@@ -1,0 +1,8 @@
+code: ML_ROC_AUC_PAIRWISE
+specialization: DATA_ML
+target_grade: SENIOR
+topic: Metrics
+item_format: MCQ
+discrimination_a: 1.0
+difficulty_b: 1.4
+description: ROC-AUC вручную как доля верно упорядоченных пар с учётом совпадений

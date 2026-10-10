@@ -1,0 +1,9 @@
+code: SQL_NULL_HAVING_JOIN
+specialization: BACKEND
+target_grade: MIDDLE
+topic: SQL
+item_format: SQL
+discrimination_a: 1.5
+difficulty_b: 0.4
+description: Поведение агрегатов COUNT(col) vs COUNT(*) и NULL в секциях LEFT JOIN
+  и HAVING

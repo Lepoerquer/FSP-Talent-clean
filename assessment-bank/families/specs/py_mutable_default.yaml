@@ -1,0 +1,9 @@
+code: PY_MUTABLE_DEFAULT
+specialization: BACKEND
+target_grade: JUNIOR
+topic: Python
+item_format: CODE_OUTPUT
+discrimination_a: 1.4
+difficulty_b: -0.4
+description: Тест на понимание изменяемых значений по умолчанию в аргументах функций
+  Python

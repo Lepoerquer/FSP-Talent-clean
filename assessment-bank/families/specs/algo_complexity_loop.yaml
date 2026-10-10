@@ -1,0 +1,8 @@
+code: ALGO_COMPLEXITY_LOOP
+specialization: BACKEND
+target_grade: MIDDLE
+topic: Algorithms
+item_format: COMPLEXITY
+discrimination_a: 1.6
+difficulty_b: 0.6
+description: Анализ асимптотической сложности (Big-O) алгоритмов с вложенными циклами

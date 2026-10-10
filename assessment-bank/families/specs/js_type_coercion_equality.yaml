@@ -1,0 +1,8 @@
+code: JS_TYPE_COERCION_EQUALITY
+specialization: FRONTEND
+target_grade: INTERN
+topic: JS_TS
+item_format: CODE_OUTPUT
+discrimination_a: 1.3
+difficulty_b: -1.4
+description: Неявное приведение типов в JavaScript и различия между == и ===

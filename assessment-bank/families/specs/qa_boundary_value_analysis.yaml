@@ -1,0 +1,8 @@
+code: QA_BOUNDARY_VALUE_ANALYSIS
+specialization: QA
+target_grade: JUNIOR
+topic: Testing_Types
+item_format: MCQ
+discrimination_a: 1.4
+difficulty_b: -0.8
+description: Анализ граничных значений (BVA) для числовых диапазонов ввода

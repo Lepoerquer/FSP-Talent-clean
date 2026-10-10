@@ -1,0 +1,9 @@
+code: QA_TEST_ARCHITECTURE_STRATEGY
+specialization: QA
+target_grade: SENIOR
+topic: Automation
+item_format: MCQ
+discrimination_a: 1.65
+difficulty_b: 1.5
+description: 'Архитектура тестирования микросервисов: контрактное тестирование Pact,
+  Chaos Engineering, эфемерные тестовые среды'

@@ -1,0 +1,8 @@
+code: ML_METRICS_PRECISION_RECALL
+specialization: DATA_ML
+target_grade: JUNIOR
+topic: Metrics
+item_format: MCQ
+discrimination_a: 1.0
+difficulty_b: -0.5
+description: Precision, Recall и F1 по матрице ошибок

@@ -1,0 +1,8 @@
+code: CSS_FLEX_ALIGN
+specialization: FRONTEND
+target_grade: INTERN
+topic: CSS
+item_format: MCQ
+discrimination_a: 1.25
+difficulty_b: -1.1
+description: Выравнивание элементов во Flexbox по главной и поперечной осям

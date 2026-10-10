@@ -1,0 +1,9 @@
+code: FE_WEB_SECURITY_CORS
+specialization: FRONTEND
+target_grade: SENIOR
+topic: DOM
+item_format: MCQ
+discrimination_a: 1.65
+difficulty_b: 1.15
+description: 'Механизмы браузерной безопасности: CORS preflight OPTIONS и заголовки
+  доступа'

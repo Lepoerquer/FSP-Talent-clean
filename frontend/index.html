@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/fsp-logo-v2.svg?v=20261010" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1C1D22" />
+    <meta
+      name="description"
+      content="ФСП Талант — платформа подбора ИТ-специалистов с верифицированным профилем достижений участников Федерации спортивного программирования."
+    />
+    <title>ФСП Талант — платформа подбора ИТ-специалистов</title>
+    <script>
+      (function() {
+        try {
+          var s = localStorage.getItem('mantine-color-scheme-value') || 'light';
+          if (s === 'auto') {
+            s = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          }
+          document.documentElement.setAttribute('data-mantine-color-scheme', s);
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

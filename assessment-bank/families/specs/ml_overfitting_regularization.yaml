@@ -1,0 +1,8 @@
+code: ML_OVERFITTING_REGULARIZATION
+specialization: DATA_ML
+target_grade: MIDDLE
+topic: Models
+item_format: MCQ
+discrimination_a: 1.0
+difficulty_b: 0.3
+description: 'Выбор гиперпараметра по кривой валидации: недообучение и переобучение'

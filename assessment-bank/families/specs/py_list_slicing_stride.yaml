@@ -1,0 +1,9 @@
+code: PY_LIST_SLICING_STRIDE
+specialization: BACKEND
+target_grade: INTERN
+topic: Python
+item_format: CODE_OUTPUT
+discrimination_a: 1.3
+difficulty_b: -1.5
+description: Срезы списков в Python с шагом (stride), start, stop и отрицательными
+  индексами
