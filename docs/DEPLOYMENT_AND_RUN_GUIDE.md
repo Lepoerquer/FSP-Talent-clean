@@ -45,8 +45,8 @@
 ### Команды быстрого развертывания:
 ```bash
 # 1. Клонирование репозитория и переход в корень
-git clone https://github.com/Lepoerquer/FSP-Talent.git
-cd FSP-Talent
+git clone https://github.com/Lepoerquer/FSP-Talent-clean.git
+cd FSP-Talent-clean
 
 # 2. Запуск всех сервисов в фоновом режиме (холодный старт ~30-40 сек)
 docker compose -f infra/docker-compose.yml up -d --build
